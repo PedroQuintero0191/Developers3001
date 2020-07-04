@@ -25,9 +25,20 @@
 </head>
 <style >
 .titulo{
-	font-family: 'Ubuntu', sans-serif;
+	font-family: 'Ubuntu', sans-serif 
+	;
+	color: #0b2e59;
 }	
+.btn{
+	color:#ffffff
+	;
+	background-color:#cb210e; 
+}
 
+.sub_titulo{
+	color: #0b2e59
+	; 
+}
 </style>
 
 
@@ -39,12 +50,12 @@
 <div class="container-padding">
 	<div class="row">
 
-			
+			<H1 align="center" class="titulo"> PANAEXPRESS TU ENVIO SEGURO </H1>
 			
 				<div class="col-md-6 col-lg-6 hidden-xs hidden-sm">
 				
 				<p>
- 				<span class="titulo"> INGRESA LOS DATOS DE TU PAQUETE</span>
+ 				<h3 class="titulo"> INGRESA LOS DATOS DE TU PAQUETE</h3>
  				</p>
 
 					<td> ALTO en pulgadas </td> 
@@ -74,12 +85,14 @@
 
 					<td> Aranceles</td>
 					<p>
-					<select name="arancel" class="parrafo_input" value="-1" style="height: 35px; width:50%;">	<option class="Negro" value="0">Seleccione arancel--&gt;</option>
+					<select name="arancel" class="parrafo_input" value="-1" style="height: 30px; width:50%;">	<option class="Negro" value="0">Seleccione arancel--&gt;</option>
 					<option class="Negro" value="1">-1 / 1 5%</option>
 					<option class="Negro" value="2">-1 / 2 10%</option>
 					<option class="Negro" value="3">-1 / 3 15%</option>
 					</select>
 					</p>
+
+					<button type="button" class="btn">CALCULAR</button>
 
 				</div>
 
@@ -89,7 +102,7 @@
 
  					<!-- Contenido principal -->
 
-					<h1>¿CÓMO UTILIZAR LA CALCULADORA?</h1>
+					<h1 class="sub_titulo"> ¿CÓMO UTILIZAR LA CALCULADORA?</h1>
 
 					<p>Si quieres tener un costo estimado de tu envío, diseñamos para ti una herramienta que será de gran utilidad para obtener esa información.
 
@@ -110,13 +123,14 @@
 
 
 
-				<h1>¿CÓMO UTILIZAR LA CALCULADORA?</h1>
+				
+					<h1 class="sub_titulo"> ¿CÓMO UTILIZAR LA CALCULADORA?</h1>
 
-				<p>Si quieres tener un costo estimado de tu envío, diseñamos para ti una herramienta que será de gran utilidad para obtener esa información.
+					<p>Si quieres tener un costo estimado de tu envío, diseñamos para ti una herramienta que será de gran utilidad para obtener esa información.
 
-				<p>Nuestra calculadora, permite que ingreses las medidas estimadas de la caja de tu producto, el peso y el valor para que al hacer clic en el botón rojo de «calcular envío», te indique el monto a pagar.
+					<p>Nuestra calculadora, permite que ingreses las medidas estimadas de la caja de tu producto, el peso y el valor para que al hacer clic en el botón rojo de «calcular envío», te indique el monto a pagar.
 
-				<p>Recuerda que esto es para envíos aéreos ya que nuestro servicio no ofrece la modalidad de marítimo.
+					<p>Recuerda que esto es para envíos aéreos ya que nuestro servicio no ofrece la modalidad de marítimo.
 
 		</div>
 
@@ -160,10 +174,13 @@
 			<option class="Negro" value="3">-1 / 3 15%</option>
 			</select>
 			</p>
+
+			<button type="button" class="btn">CALCULAR</button>
+			
 			</div>
 		</div>
 
-	</div>-->
+	</div>
 
 
 </body>
